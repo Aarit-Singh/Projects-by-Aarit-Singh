@@ -1,0 +1,176 @@
+{
+  "inventory" : [ {
+    "variantId" : "9553d70a-e75c-4847-b29b-71451eb0d903",
+    "sku" : "SQ4934289",
+    "descriptor" : "Full Festival Pass (4/10-4/12) [Shinjini Kulkarni]",
+    "quantity" : 19,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "71953841-4b78-4ccb-9b05-7ca443a63012",
+    "sku" : "SQ0044268",
+    "descriptor" : "Saturday 4/11 Concert @ 8pm [VIP]",
+    "quantity" : 74,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "d4af59b9-600c-4b8a-b17a-50ecf02f4a1a",
+    "sku" : "SQ4587051",
+    "descriptor" : "Saturday 4/11 Concert @ 8pm [Regular]",
+    "quantity" : 55,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "61ca94b7-5bb6-46a6-9730-fff454d35a5a",
+    "sku" : "SQ3348167",
+    "descriptor" : "Sunday 4/12 Concert @ 2pm [Regular]",
+    "quantity" : 55,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "3281ad53-2443-40dc-b603-0ffdecf430d0",
+    "sku" : "SQ7440006",
+    "descriptor" : "Sunday 4/12 Concert @ 2pm [VIP]",
+    "quantity" : 71,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "f0ffafeb-a2f1-42dc-95a6-b6df8d744e00",
+    "sku" : "SQ3045618",
+    "descriptor" : "Friday 4/10 Welcome Reception @ 7pm",
+    "quantity" : 40,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "8eebee4d-251a-4d82-91c1-a6c766a681b3",
+    "sku" : "SQ1172525",
+    "descriptor" : "Weekend Pass (4/11-4/12) [Shinjini Kulkarni]",
+    "quantity" : 10,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "f1e173ad-f42c-49f0-8b7f-42be0bbdb623",
+    "sku" : "SQ3902614",
+    "descriptor" : "Weekend Pass (4/11-4/12) [Prashant Shah]",
+    "quantity" : 10,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "6118c85b-bd40-4ef1-8c0f-9aae05aec5d7",
+    "sku" : "SQ7462723",
+    "descriptor" : "Weekend Pass (4/11-4/12) [Pt. Rajendra Gangani]",
+    "quantity" : 5,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "b3797295-047f-4115-a716-de70f191973a",
+    "sku" : "SQ8235880",
+    "descriptor" : "Dec. 11th Pop-Up concert",
+    "quantity" : 20,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "1c39cfb3-b7fd-4c7b-af14-a24e5da661ae",
+    "sku" : "SQ6614882",
+    "descriptor" : "NYKF Bloom—a celebration of Buddha Purnima on May 15th",
+    "quantity" : 138,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "34a1408b-151f-4295-b3ea-cd7055330a87",
+    "sku" : "SQ2488568",
+    "descriptor" : "Nov. 13th Pop-Up concert",
+    "quantity" : 1,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "a2236cd7-0ea7-4586-9651-ee6bdce46511",
+    "sku" : "SQ8374070",
+    "descriptor" : "Full Festival Pass (6/2-6/4) [Shri Prashant Shah]",
+    "quantity" : 0,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "9f5899ac-e08a-4c48-9965-9df2d1d13b6c",
+    "sku" : "SQ8654560",
+    "descriptor" : "Full Festival Pass (6/2-6/4) [Pt. Rajendra Gangani]",
+    "quantity" : 0,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "1eab8bae-e5b1-4905-aa62-d74664158d67",
+    "sku" : "SQ8725003",
+    "descriptor" : "Lec-dem (6/4)",
+    "quantity" : 6,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "2786e314-69bf-48cf-a862-a8a0934edf1c",
+    "sku" : "SQ8338715",
+    "descriptor" : "Workshop Observer (6/2-6/3)",
+    "quantity" : 0,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "0c0d8af5-d3b1-4572-98f7-3e4d03e34a62",
+    "sku" : "SQ7147126",
+    "descriptor" : "NYKF Pop-Up! Workshop with Rani Khanam",
+    "quantity" : 16,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "d1342f98-258a-491d-b13d-e52cabac7eb4",
+    "sku" : "SQ6567606",
+    "descriptor" : "NYKF Pop-Up! Intensive with Dheerendra Tiwari",
+    "quantity" : 15,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "41a4f83d-0e87-4f15-b7e7-b9137ac4d7c2",
+    "sku" : "SQ8225617",
+    "descriptor" : "Test 2024 Workshop Pass A",
+    "quantity" : 29,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "935148aa-5e58-4ea2-af20-6eb805db575d",
+    "sku" : "SQ1827049",
+    "descriptor" : "NYKF Pop-Up! Mehfil",
+    "quantity" : 11,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "44e9214a-a733-43f9-bf49-c4adbc386cab",
+    "sku" : "SQ0312705",
+    "descriptor" : "Workshop Pass—Saswati Sen (6/21-6/23)",
+    "quantity" : 6,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "b6ad8478-a352-4cc7-b8a1-dd5c132decef",
+    "sku" : "SQ8548773",
+    "descriptor" : "Workshop Pass—Vidha Lal (6/21-6/23)",
+    "quantity" : 22,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "2f3c4775-18a5-4a65-89c6-d38cb662c438",
+    "sku" : "SQ5041316",
+    "descriptor" : "Workshop Pass—Rachna Nivas (6/22-6/23)",
+    "quantity" : 11,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "07b86677-134b-4bf6-af1b-83a4ed67b810",
+    "sku" : "SQ7135407",
+    "descriptor" : "Workshop Observer—Saswati Sen (6/21-6/23)",
+    "quantity" : 1,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "d2abdcb9-a67c-4a63-95b8-1addbf863486",
+    "sku" : "SQ6722450",
+    "descriptor" : "Workshop Observer—Vidha Lal (6/21-6/23)",
+    "quantity" : 4,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "fbfd8310-5c70-44f5-a146-e9b4816bb3b6",
+    "sku" : "SQ5588052",
+    "descriptor" : "Panel discussion 2024",
+    "quantity" : 10,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "020c7828-467f-4600-8354-7dc87e63cd8e",
+    "sku" : "SQ2021914",
+    "descriptor" : "NYKF Pop-Up! 2024 [VIP]",
+    "quantity" : 34,
+    "isUnlimited" : false
+  }, {
+    "variantId" : "47282f08-4392-4b4f-9d9e-3f7e188fb117",
+    "sku" : "SQ3601869",
+    "descriptor" : "NYKF Pop-Up! 2024 [Regular seating]",
+    "quantity" : 65,
+    "isUnlimited" : false
+  } ],
+  "pagination" : {
+    "nextPageUrl" : null,
+    "nextPageCursor" : null,
+    "hasNextPage" : false
+  }
+}
