@@ -1,3 +1,10 @@
+'''
+  This was my first true, somewhat complicated project, and thus it is very close to my heart
+  pleaes excuse the objectively awful code and the fact that the API key is just sitting in a file that would be written. i did not want to create a password protected
+  file or a server-side database.
+  this project taught me so many lessons in TKinter (pythons GUI creation library), and was very fun to do!
+  it can generate a password, view all saved passowrd-username pairs, and save your passwords. very simple, but EVERYTHING is encrypted. 
+'''
 import tkinter as tk 
 import os
 from tkinter import filedialog, Text
