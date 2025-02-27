@@ -28,10 +28,11 @@ from math import *
 from tkinter import *
 from PIL import Image, ImageTk
 from classcheck import *
-
+# 22 import statements is INSANE
 training_path = "Fruits_app/archive_fruits/archive/fruits-360_dataset/fruits-360/Training"
-mean = [0.4914, 0.4822, 0.446]
-std = [0.2023, 0.1994, 0.2010]
+mean = [0.4914, 0.4822, 0.446] # mean values for the data
+std = [0.2023, 0.1994, 0.2010] # standard confiance values deviation
+# transfomrations to make the model more redundant and eliminate potential bias.
 train_transforms = trforms.Compose([
     trforms.Resize(64),
     trforms.RandomHorizontalFlip(0.25),
@@ -39,15 +40,18 @@ train_transforms = trforms.Compose([
     trforms.ToTensor(),
     trforms.Normalize(torch.Tensor(mean),torch.Tensor(std)) #Normalizes dataset, strongly improves preformance, bascilly preforms a opperation on immage to make them more efficiant while training.
 ])
+
 train_dataset = torchvision.datasets.ImageFolder(root = training_path, transform = train_transforms)
 train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size = 32, shuffle = True)
 
 class fruits_classifier(nn.Module):
     def __init__(self):
+        # constructs the nn.Module object with default values
         super().__init__()
+        # this is the actual model structrue
         self.model = nn.Sequential(
             nn.Conv2d(3, 32, (3,3)), #creates conv2d layer for immage use, 1 input layer, 32 output layers for first, 3,3 kernal size passed to next layer
-            nn.ReLU(),
+            nn.ReLU(), #shaves two pixels of of the immage for some reason?
             nn.Conv2d(32, 64, (3,3)),
             nn.ReLU(),
             nn.Conv2d(64, 64, (3,3)),
@@ -55,13 +59,15 @@ class fruits_classifier(nn.Module):
             nn.Flatten(), #transforms tensor output to a vector output
             nn.Linear(64*(64-6)*(64-6),131) # applies linear transformation to object, pushed highest activation node out of the 131 output nodes corresponding to an individual fruit as the solution to the recognition task
         )
-        
+        # defines how the data traverse the model.
     def forward(self, x):
         x = x.view(x.size(0), -1)
         return self.model(x)
 
 
 clf = fruits_classifier().to("cpu")
+# ensures that the contents file is not empty, as to retrain or not train the model. in theory i would have trained a full model already, and distributed it.
+# but i didnt.
 def checkstate( fp: str) -> str:
     with open(fp, 'rb') as fprime:
         n = fprime.read()
@@ -77,8 +83,10 @@ lossfn = nn.CrossEntropyLoss()
         
 epochs = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]                
 retrain_self = True
+# cheks if it should start training loop
 if (retrain_self !=False) | (contents == False):
     print(("training underway, retrain set to: {}, and contents present: {}").format(retrain_self, contents))
+   #training loop
     for epoch in epochs:
         start_time = time.time()
         print("Epoch", str(epoch), "out of", str(epochs[-1]), "Has Started")
@@ -101,7 +109,6 @@ if (retrain_self !=False) | (contents == False):
             torch.save(clf.state_dict(), f)
     with open('logs.txt', 'w') as r:
             r.write("most recent training finshed on {}".format(date.today()))
-    screen_val =0
 if contents == True:
     print("Training Skipped, model already present")
 
